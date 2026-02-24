@@ -1,1 +1,81 @@
-updates
+# Map Hub - Update Catalog
+# Format:
+# [id]
+# title=Shown title
+# zip=DEFAULT or full zip url
+# source=Folder inside the extracted zip (relative to repo root)
+# target=Folder inside the game folder
+# backup=Backup folder key/name
+# marker=Marker file name (stored in .maphub/markers or equivalent)
+# category=Core|Mods|UI
+
+default_zip=https://github.com/Army-Developer/AMRTS-Maps/archive/refs/heads/main.zip
+
+# ===== CORE UPDATES =====
+
+[hd_textures]
+title=Download HD Textures, Skins (Original Textures but Improved to HD)
+zip=DEFAULT
+source=base/hd_textures
+target=base
+backup=core_hd_textures
+marker=hd_textures.installed
+category=Core
+
+[enhance_fps]
+title=Enhance Game FPS (Fixes Game Low FPS)
+zip=DEFAULT
+source=base/enhance_fps
+target=base
+backup=core_enhance_fps
+marker=enhance_fps.installed
+category=Core
+
+# ===== MODS =====
+
+[super_ai]
+title=Super A.I
+zip=DEFAULT
+source=A.I MOD FILES
+target=mods\persona
+backup=mods_persona_super_ai
+marker=super_ai.installed
+category=Mods
+
+[maps_mods]
+title=Maps Mods
+zip=DEFAULT
+source=MODS FOR MAPS
+target=mods\ruleset
+backup=mods_ruleset_maps_mods
+marker=maps_mods.installed
+category=Mods
+
+[hq_timer_1024]
+title=HQ Timer (1024 x 768)
+zip=DEFAULT
+source=mods/ruleset/1024
+target=mods\ruleset
+backup=mods_ruleset_hq_timer_1024
+marker=hq_timer_1024.installed
+category=Mods
+
+# ===== UI =====
+
+[ui_ingame]
+title=User Interface Update (In game)
+zip=DEFAULT
+source=Client/P/Ingame
+target=client\p\ingame
+backup=client_p_ingame_ui
+marker=ui_ingame.installed
+category=UI
+
+[ui_shell]
+title=User Interface Update (Shell)
+zip=DEFAULT
+source=Client/P/shell
+target=client\p\shell
+backup=client_p_shell_ui
+marker=ui_shell.installed
+category=UI
