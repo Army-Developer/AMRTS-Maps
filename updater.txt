@@ -1,81 +1,99 @@
 # Map Hub - Update Catalog
-# Format:
-# [id]
-# title=Shown title
-# zip=DEFAULT or full zip url
-# source=Folder inside the extracted zip (relative to repo root)
-# target=Folder inside the game folder
-# backup=Backup folder key/name
-# marker=Marker file name (stored in .maphub/markers or equivalent)
-# category=Core|Mods|UI
 
 default_zip=https://github.com/Army-Developer/AMRTS-Maps/archive/refs/heads/main.zip
 
-# ===== CORE UPDATES =====
+
+# =========================
+# CORE UPDATES
+# =========================
 
 [hd_textures]
 title=Download HD Textures, Skins (Original Textures but Improved to HD)
+title_ar=تحميل تكستشرز HD محسنة
+title_es=Descargar texturas HD mejoradas
 zip=DEFAULT
-source=base/hd_textures
-target=base
+source=base/objects/army/art
+target=base/objects/army/art
 backup=core_hd_textures
 marker=hd_textures.installed
 category=Core
 
+
 [enhance_fps]
 title=Enhance Game FPS (Fixes Game Low FPS)
+title_ar=تحسين أداء اللعبة (حل مشكلة البطء)
+title_es=Mejorar FPS del juego
 zip=DEFAULT
-source=base/enhance_fps
-target=base
+source=base/interface/runcodes
+target=base/interface/runcodes
 backup=core_enhance_fps
 marker=enhance_fps.installed
 category=Core
 
-# ===== MODS =====
+
+# =========================
+# MODS
+# =========================
 
 [super_ai]
 title=Super A.I
+title_ar=الذكاء الصناعي المطور
+title_es=Super A.I
 zip=DEFAULT
 source=A.I MOD FILES
-target=mods\persona
+target=mods/persona
 backup=mods_persona_super_ai
 marker=super_ai.installed
 category=Mods
 
+
 [maps_mods]
 title=Maps Mods
+title_ar=مودات الخرائط
+title_es=Mods de mapas
 zip=DEFAULT
 source=MODS FOR MAPS
-target=mods\ruleset
+target=mods/ruleset
 backup=mods_ruleset_maps_mods
 marker=maps_mods.installed
 category=Mods
 
+
 [hq_timer_1024]
 title=HQ Timer (1024 x 768)
+title_ar=مؤقت HQ (1024x768)
+title_es=Temporizador HQ (1024x768)
 zip=DEFAULT
 source=mods/ruleset/1024
-target=mods\ruleset
+target=mods/ruleset
 backup=mods_ruleset_hq_timer_1024
 marker=hq_timer_1024.installed
 category=Mods
 
-# ===== UI =====
+
+# =========================
+# UI
+# =========================
 
 [ui_ingame]
 title=User Interface Update (In game)
+title_ar=تحديث الواجهة داخل اللعبة
+title_es=Actualización de interfaz (en juego)
 zip=DEFAULT
 source=Client/P/Ingame
-target=client\p\ingame
+target=Client/P/Ingame
 backup=client_p_ingame_ui
 marker=ui_ingame.installed
 category=UI
 
+
 [ui_shell]
 title=User Interface Update (Shell)
+title_ar=تحديث واجهة القائمة الرئيسية
+title_es=Actualización de interfaz (menú)
 zip=DEFAULT
 source=Client/P/shell
-target=client\p\shell
+target=Client/P/shell
 backup=client_p_shell_ui
 marker=ui_shell.installed
 category=UI
