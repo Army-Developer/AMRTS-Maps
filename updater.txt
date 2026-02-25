@@ -97,3 +97,12 @@ target=Client/P/shell
 backup=client_p_shell_ui
 marker=ui_shell.installed
 category=UI
+
+[hq_timer1280]
+title=Modern HQ Timer - 1280x768
+zip=DEFAULT
+source=https://github.com/Army-Developer/AMRTS-Maps/tree/main/mods/ruleset/HQ%201280x720
+target=mods/ruleset
+backup=mods_hq_timer1280
+marker=hq_timer1280.installed
+category=Mods
