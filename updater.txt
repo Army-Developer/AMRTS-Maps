@@ -98,10 +98,3 @@ backup=client_p_shell_ui
 marker=ui_shell.installed
 category=UI
 
-[hq_timer1280]
-title=Modern HQ Timer - 1280x768
-zip=DEFAULT
-source=mods/ruleset/HQ 1280x720
-backup=mods_hq_timer1280
-marker=hq_timer1280.installed
-category=Mods
