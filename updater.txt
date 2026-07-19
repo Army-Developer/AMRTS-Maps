@@ -9,7 +9,7 @@ default_zip=https://github.com/Army-Developer/AMRTS-Maps/archive/refs/heads/main
 
 [hd_textures]
 title=Download HD Textures All resulotions, Skins (Original Textures but Improved to HD)
-title_ar=تحميل تكستشرز HD  (جميع دقق الشاشات) محسنة
+title_ar= تحميل تكسشترز اعلى دقة لكل الشاشات 
 title_es=Descargar texturas HD mejoradas (Todo resolución)
 zip=DEFAULT
 source=base/objects/army/art
